@@ -1,0 +1,68 @@
+.mec-wrap h1 { margin-bottom: 16px; }
+
+.mec-cards { display: flex; flex-wrap: wrap; gap: 16px; margin: 16px 0 24px; }
+.mec-card {
+	flex: 1 1 180px;
+	background: #fff;
+	border: 1px solid #e2e4e7;
+	border-radius: 8px;
+	padding: 18px 20px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+.mec-card-num { font-size: 30px; font-weight: 600; line-height: 1.1; color: #1d2327; }
+.mec-card-label { margin-top: 6px; color: #646970; font-size: 13px; }
+
+.mec-kv { max-width: 640px; margin-bottom: 20px; }
+.mec-kv th { width: 220px; text-align: left; }
+
+.mec-actions { margin-top: 10px; }
+
+.mec-badge {
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 12px;
+	font-size: 12px;
+	background: #f0f0f1;
+	color: #3c434a;
+}
+.mec-badge.mec-ok  { background: #e6f4ea; color: #15803d; }
+.mec-badge.mec-bad { background: #fbeaea; color: #b32d2e; }
+.mec-badge.mec-wait{ background: #fef3cd; color: #8a6d00; }
+
+.mec-filters { margin: 12px 0; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+.mec-bulkbar {
+	margin: 12px 0;
+	padding: 10px 12px;
+	background: #fff;
+	border: 1px solid #e2e4e7;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	flex-wrap: wrap;
+}
+.mec-bulk-status { color: #50575e; font-size: 13px; }
+
+.mec-products td { vertical-align: middle; }
+.mec-products img { border-radius: 4px; display: block; }
+.mec-row-actions .button { margin: 2px 0; }
+
+.mec-progress {
+	display: inline-block;
+	width: 160px;
+	height: 8px;
+	background: #e2e4e7;
+	border-radius: 4px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.mec-progress-bar {
+	display: block;
+	height: 100%;
+	width: 0;
+	background: #2271b1;
+	transition: width .4s ease;
+}
