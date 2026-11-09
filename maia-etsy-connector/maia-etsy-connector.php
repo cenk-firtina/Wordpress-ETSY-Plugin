@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Maia Etsy Connector
+ * Plugin Name: WordPress Etsy Plugin
  * Plugin URI:  https://maiaconcept.com
  * Description: WooCommerce ürünlerini Etsy Open API v3 ile Etsy mağazanıza taslak olarak aktarır. Toplu aktarım, OAuth 2.0 + PKCE, kategori/kargo eşleştirme ve hata kaydı içerir.
  * Version:     1.0.0
@@ -63,7 +63,7 @@ add_action(
 				'admin_notices',
 				static function () {
 					echo '<div class="notice notice-error"><p>';
-					echo esc_html__( 'Maia Etsy Connector için WooCommerce etkin olmalıdır.', 'maia-etsy-connector' );
+					echo esc_html__( 'WordPress Etsy Plugin için WooCommerce etkin olmalıdır.', 'maia-etsy-connector' );
 					echo '</p></div>';
 				}
 			);

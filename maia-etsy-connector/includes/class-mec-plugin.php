@@ -36,8 +36,8 @@ class MEC_Plugin {
 	public function register_menu(): void {
 		$admin = new MEC_Admin();
 		add_menu_page(
-			__( 'Maia Etsy Connector', 'maia-etsy-connector' ),
-			__( 'Maia Etsy', 'maia-etsy-connector' ),
+			__( 'WordPress Etsy Plugin', 'maia-etsy-connector' ),
+			__( 'Etsy Plugin', 'maia-etsy-connector' ),
 			self::CAP,
 			'mec-dashboard',
 			array( $admin, 'render_dashboard' ),

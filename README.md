@@ -1,4 +1,4 @@
-# Maia Etsy Connector
+# WordPress Etsy Plugin
 
 WooCommerce ürünlerinizi **Etsy Open API v3** üzerinden Etsy mağazanıza **taslak (draft) listing** olarak aktaran bir WordPress eklentisi. Toplu aktarım, OAuth 2.0 + PKCE kimlik doğrulama, kategori/kargo eşleştirme, fiyat ve para birimi ayarları, görsel senkronizasyonu ve hata kaydı içerir.
 
@@ -49,7 +49,7 @@ WooCommerce ürünlerinizi **Etsy Open API v3** üzerinden Etsy mağazanıza **t
 1. `maia-etsy-connector.zip` dosyasını indirin.
 2. WordPress → **Eklentiler → Yeni Ekle → Eklenti Yükle** → ZIP'i seçin → **Şimdi Kur**.
 3. **Etkinleştir**.
-4. Sol menüde **Maia Etsy** sayfaları görünür.
+4. Sol menüde **Etsy Plugin** sayfaları görünür.
 
 > Güncelleme: yeni ZIP'i yüklemeden önce eski sürümü silip yeniden kurun ya da üzerine yükleyin. Ayarlar ve token'lar veritabanında kalır.
 

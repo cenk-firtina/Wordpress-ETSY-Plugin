@@ -1,4 +1,4 @@
-=== Maia Etsy Connector ===
+=== WordPress Etsy Plugin ===
 Contributors: maiaconcept
 Tags: etsy, woocommerce, export, listings, oauth
 Requires at least: 6.2
@@ -13,7 +13,7 @@ WooCommerce ürünlerini Etsy Open API v3 ile Etsy mağazanıza taslak olarak to
 
 == Description ==
 
-Maia Etsy Connector, WooCommerce mağazanızdaki ürünleri Etsy'ye tek tek girmeden toplu olarak aktarmanızı sağlar. Üçüncü taraf ücretli servis gerektirmez; doğrudan Etsy Open API v3 kullanır.
+WordPress Etsy Plugin, WooCommerce mağazanızdaki ürünleri Etsy'ye tek tek girmeden toplu olarak aktarmanızı sağlar. Üçüncü taraf ücretli servis gerektirmez; doğrudan Etsy Open API v3 kullanır.
 
 Özellikler:
 
@@ -30,7 +30,7 @@ Maia Etsy Connector, WooCommerce mağazanızdaki ürünleri Etsy'ye tek tek girm
 
 1. WordPress > Eklentiler > Yeni Ekle > Eklenti Yükle.
 2. maia-etsy-connector.zip dosyasını seçip yükleyin ve etkinleştirin.
-3. Maia Etsy > Ayarlar'dan Etsy API Keystring ve Shared Secret girin.
+3. Etsy Plugin > Ayarlar'dan Etsy API Keystring ve Shared Secret girin.
 4. Oradaki Redirect URI'yi Etsy uygulamanızın Callback URL alanına birebir ekleyin.
 5. "Etsy'ye Bağlan" ile OAuth bağlantısını tamamlayın.
 6. Kargo/readiness/iade ve fiyat ayarlarını yapın, kategorileri eşleştirin.

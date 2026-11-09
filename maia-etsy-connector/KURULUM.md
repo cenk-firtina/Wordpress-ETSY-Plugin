@@ -1,4 +1,4 @@
-# Maia Etsy Connector — Kurulum ve Kullanım
+# WordPress Etsy Plugin — Kurulum ve Kullanım
 
 WooCommerce ürünlerinizi Etsy Open API v3 ile Etsy mağazanıza **taslak** olarak aktaran WordPress eklentisi.
 
@@ -20,11 +20,11 @@ WooCommerce ürünlerinizi Etsy Open API v3 ile Etsy mağazanıza **taslak** ola
 
 WordPress → Eklentiler → Yeni Ekle → Eklenti Yükle → `maia-etsy-connector.zip` → Yükle → Etkinleştir.
 
-Etkinleştirince sol menüde **Maia Etsy** görünür.
+Etkinleştirince sol menüde **Etsy Plugin** görünür.
 
 ## 3. Bağlanma
 
-1. **Maia Etsy → Ayarlar**: Keystring ve Shared Secret girin, kaydedin.
+1. **Etsy Plugin → Ayarlar**: Keystring ve Shared Secret girin, kaydedin.
 2. **Etsy'ye Bağlan** butonuna basın, Etsy'de izin verin.
 3. Dönüşte Dashboard'da mağaza adınız ve "Bağlı" rozeti görünür. Shop ID otomatik alınır.
 
@@ -42,7 +42,7 @@ Readiness veya kargo profiliniz yoksa önce Etsy panelinizden oluşturun; liste 
 
 ## 5. Kategori eşleştirme
 
-**Maia Etsy → Kategori Eşleştirme**: her WooCommerce kategorisi için Etsy kategorisi (taxonomy_id) seçin ve kaydedin. Ürün bazında `_mec_etsy_taxonomy_id` bu eşleştirmenin önüne geçer.
+**Etsy Plugin → Kategori Eşleştirme**: her WooCommerce kategorisi için Etsy kategorisi (taxonomy_id) seçin ve kaydedin. Ürün bazında `_mec_etsy_taxonomy_id` bu eşleştirmenin önüne geçer.
 
 ## 6. Etsy'ye özel bilgiler (ürün bazında)
 
@@ -52,18 +52,18 @@ Readiness veya kargo profiliniz yoksa önce Etsy panelinizden oluşturun; liste 
 
 ## 7. Aktarım
 
-**Maia Etsy → Ürün Aktarımı**: ürünleri filtreleyip/arayıp seçin, **Etsy'ye Aktar (Taslak)**. İşlem arka planda Action Scheduler kuyruğunda çalışır; sayfayı kapatsanız bile devam eder. İlerleme çubuğu ve durumlar canlı güncellenir.
+**Etsy Plugin → Ürün Aktarımı**: ürünleri filtreleyip/arayıp seçin, **Etsy'ye Aktar (Taslak)**. İşlem arka planda Action Scheduler kuyruğunda çalışır; sayfayı kapatsanız bile devam eder. İlerleme çubuğu ve durumlar canlı güncellenir.
 
 - Başarılı ürünler tekrar aktarılmaz; mevcut Listing güncellenir (mükerrer kayıt oluşmaz).
 - 429 (limit) yanıtında `Retry-After`, geçici 5xx hatada exponential backoff uygulanır. Kalıcı doğrulama hataları tekrar denenmez.
 
 ## 8. Güncelleme
 
-**Maia Etsy → Etsy Ürünleri**: aktarılan ürünler için **Fiyat / Stok / Açıklama / Fotoğraf / Tümü** güncelleme.
+**Etsy Plugin → Etsy Ürünleri**: aktarılan ürünler için **Fiyat / Stok / Açıklama / Fotoğraf / Tümü** güncelleme.
 
 ## 9. Geçmiş ve hata
 
-**Maia Etsy → Aktarım Geçmişi**: tarih, ürün/listing ID, işlem, durum, HTTP kodu, deneme sayısı, mesaj. API anahtarları ve token asla loglanmaz.
+**Etsy Plugin → Aktarım Geçmişi**: tarih, ürün/listing ID, işlem, durum, HTTP kodu, deneme sayısı, mesaj. API anahtarları ve token asla loglanmaz.
 
 ## Testler
 
